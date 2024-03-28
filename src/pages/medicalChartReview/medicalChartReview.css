@@ -187,7 +187,7 @@
   min-height: 7rem;
 }
 .paste-icon {
-  color: #cecece;
+  color: #000;
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -234,7 +234,7 @@
   justify-content: space-between;
   padding: 1px 14px;
   cursor: pointer;
-  color: #cecece;
+  color: #000;
   font-size: 1.25rem;
 }
 .feedback-container {

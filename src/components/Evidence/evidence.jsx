@@ -96,7 +96,7 @@ const Evidence = ({ data, storeReferenceTextInArray }) => {
           <div className="para-container"><span>Summary: &nbsp; </span>{item.Concept_LLM_Summary}</div>
 
           <div className="note-container">
-            <div className="note-container-div">Description: </div>
+            
             <ul className="listwidth">
               <li className="list-style-none">
                 {checkIsArray(item.Response_Attribute) ? (
@@ -132,7 +132,7 @@ const Evidence = ({ data, storeReferenceTextInArray }) => {
                   <FaCopy />
                 </span>
               </Tooltip>
-              <UserFeedback feedback={item} updateUserFeedback = {updateFeedback} type={"CES"}/>
+              {/* <UserFeedback feedback={item} updateUserFeedback = {updateFeedback} type={"CES"}/> */}
             </div>
             <div className="feedback-container">
             <span className="page-font">Document Page</span>
